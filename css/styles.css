@@ -1,8 +1,9 @@
 body {
-  min-width: 1030px;
+  min-width: 1100px;
   max-width: 1400px;
   padding: 0px;
   margin: 0px;
+  margin-bottom: 50px;
 }
 
 /*Navigation CSS*/
@@ -71,6 +72,7 @@ body {
     border: 1px #ccc thin;
     min-width: 250px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
 
 }
 
@@ -91,4 +93,353 @@ body {
   display: block;
   position: absolute;
   bottom: -147px;
+}
+
+/* Opening Section */
+
+.main-headline, .map {
+  display: inline-block;
+  max-width: 50%;
+  min-width: 525px
+}
+
+.main-headline p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 44pt;
+  color: #cc3333;
+  text-align: center;
+}
+
+.light {
+    font-weight: 300;
+    font-size: 56pt;
+
+}
+
+.map {
+  position: relative;
+  top: 75px;
+  left: 75px;
+}
+
+.availability {
+  display: block;
+  margin: auto;
+  width: 50%;
+
+}
+
+
+.availability button {
+  background-color: #cc3333;
+  color: #ffffff;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 25px;
+  font-size: 14pt;
+}
+
+#Layer_1 {
+  position: absolute;
+  width: 40%;
+  top: 50px;
+  left: 50px;
+}
+
+#Layer_2 {
+  position: absolute;
+  width: 40%;
+  top: 122px;
+  left: 222px;
+}
+
+#Layer_3 {
+  position: absolute;
+  width: 40%;
+  top: 101px;
+  left: 133px;
+}
+
+#Layer_4 {
+  position: absolute;
+  width: 40%;
+  top: 11px;
+  left: 284px;
+}
+
+#scroll {
+  height: 1200px;
+}
+
+.object-10, .object-9, .object-8, .object-7, .object-6, .object-5, .object-4, .object-3, .object-2, .object-1  {
+  fill: #ffffff;
+}
+
+.reveal {
+  fill: #E0303D;
+}
+
+.statement {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  color: #cc3333;
+  font-size: 28pt;
+  padding-top: 20px;
+}
+
+
+/*Photo/Deal */
+
+.large-photo {
+  background-color: #cc3333;
+  max-width: 100%;
+  display: inline-block;
+  position: relative;
+}
+
+.internet-text {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+
+.large-photo p {
+  color: #ffffff;
+  margin: 0px;
+  vertical-align: top;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+}
+
+.plans {
+  left: 100%;
+  top: 120px;
+  font-size: 20pt;
+  font-weight: 700;
+}
+
+.starting {
+  left: 100%;
+  top: 130px;
+  font-size: 15pt;
+  font-weight: 300;
+}
+
+.amount {
+  left: 100%;
+  top: 150px;
+  font-weight: 300;
+  font-size: 50pt;
+}
+
+.qualifying {
+  left: 100%;
+  top:150px;
+  font-weight: 300;
+  font-size: 15pt;
+}
+
+
+.higher {
+  font-size: 15pt;
+  vertical-align: top;
+}
+
+/*Three Col */
+.three-col {
+  margin-top: 30px;
+}
+
+
+.col-1, .col-2, .col-3 {
+  max-width: 33%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.three-col h5 {
+  font-size: 20pt;
+  font-weight: 300;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin: 20px;
+
+}
+
+.keyword {
+  color: #cc3333;
+}
+
+.three-col p {
+  font-size: 13pt;
+  margin: 0px 45px;
+  line-height: 2;
+  font-weight: 300;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.three-col img {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin: auto;
+  padding: 30px 0px;
+}
+
+.col-2 img {
+  width: 13%;
+  height: 76px;
+}
+
+.col-3 img {
+  width: 30%;
+}
+
+.three-col button {
+  background-color: #cc3333;
+  color: #ffffff;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 25px;
+  font-size: 14pt;
+  display: block;
+  margin: auto;
+
+}
+
+/*Full Size Image */
+
+.full-image {
+  margin-top: 50px;
+  border-top-left-radius: 30%;
+  border-top-right-radius: 30%;
+    background-color: #cc3333;
+    position: relative;
+}
+
+.full-image img {
+  border-top-left-radius: 30%;
+  border-top-right-radius: 30%;
+  opacity: 0.4;
+
+}
+
+.icon img {
+  position: absolute;
+  z-index: 5;
+  top: 30px;
+  left: 450px;
+  opacity: 1;
+  width: 30%;
+}
+
+.slogan p {
+  font-size: 13pt;
+  margin: 0px 45px;
+  line-height: 2;
+  font-weight: 300;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 22pt;
+}
+
+.slogan {
+  position: absolute;
+  left: 400px;
+  bottom: 25px;
+}
+
+.swipe-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20pt;
+  padding: 40px;
+}
+
+.swipe-buttons {
+  width: 250px;
+  height: 75px;
+  border-radius: 5px;
+  margin-left: 40px;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 50px;
+}
+
+
+.toggle-button, .toggle-button1, .toggle-button2 {
+  position: absolute;
+  border-radius: 5px;
+  background-color: #cc3333;
+  width: 100px;
+  height: 75px;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+}
+
+
+.toggle1 {
+  position: absolute;
+  border-radius: 5px;
+  background-color: #fff;
+  width: 100px;
+  height: 75px;
+  left: 0px;
+  top: 0px;
+  z-index: 0;
+}
+
+.toggle2 {
+  position: absolute;
+  border-radius: 5px;
+  border: #ccc 2px dotted;
+  background-color: #fff;
+  width: 100px;
+  height: 75px;
+  left: 150px;
+  top: 0px;
+  z-index: 0;
+}
+
+.swipe-buttons p {
+  position: absolute;
+  padding-left: 10px;
+  margin-top: 3px;
+  font-size: 20pt;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.order h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    color: #cc3333;
+    font-size: 24pt;
+
+
+}
+
+.order {
+  display: inline-block;
+  margin-left: 50px;
+  padding-left: 50px;
+  border-left: solid 2px #cc3333;
+
+
+}
+
+.order button {
+  background-color: #cc3333;
+  color: #ffffff;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 25px;
+  font-size: 14pt;
+  display: block;
+  margin: auto;
 }
